@@ -12,16 +12,6 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        // Indent with 4 spaces
-        "indent": ["error", 4],
-        // No console
-        "no-console": "off",
-        // Line-break
-        "linebreak-style": ["error", "windows"],
-        "space-before-function-paren": ["error", {
-            "anonymous": "always",
-            "named": "always",
-            "asyncArrow": "always"
-        }]
+        "indent":"[error, 4]",
     }
 }
